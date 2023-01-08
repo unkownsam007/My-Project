@@ -3,10 +3,10 @@ from tqdm import tqdm
 
 # Python external library tqdm, to create simple & hassle-free progress bars which you can add to your code and make it look lively! 
 
-wordlist = "/home/rocky/cvp/dictionary.txt"
+wordlist = "/usr/share/wordlists/rockyou.txt"
 #kali-linux dictionary-attack file path: /usr/share/wordlists/rockyou.txt 
 # the zip file you want to crack its password
-zip_file = "/home/rocky/cvp/crackit.zip"
+zip_file = "/home/kali/Documents/crackit.zip"
 #print(zip_file)
 zip_file = zipfile.ZipFile(zip_file)
 #print(type(zip_file))
